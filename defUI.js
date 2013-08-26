@@ -52,9 +52,6 @@
         option: {
             
         },
-        _bridge: function () {
-            
-        },
         _init: function () {
             
         },
