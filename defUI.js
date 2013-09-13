@@ -49,7 +49,7 @@
 })(jQuery);
 (function ($, undefined) {
     $.defWidget('def-defAjax', {
-        option: {
+        option: {asdf
             
         },
         _bridge: function () {
