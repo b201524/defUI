@@ -2,8 +2,15 @@
  * @author xinsong
  */
 a5
+<<<<<<< HEAD
 ;(function ($, undefined) {
     $.de = function (name, obj) {
+=======
+a7
+a8
+;(function ($, undefinedasf) {
+    $.defWidg = function (name, obj) {
+>>>>>>> refs/heads/master
         var nameSpace = name.split('-')[0],
             name = name.split('-')[1];
         namespace('$-' + nameSpace);
