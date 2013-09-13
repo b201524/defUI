@@ -3,7 +3,8 @@
  */
 a5
 a7
-;(function ($, undefined) {
+a8
+;(function ($, undefinedasf) {
     $.defWidget = function (name, obj) {
         var nameSpace = name.split('-')[0],
             name = name.split('-')[1];
