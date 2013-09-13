@@ -5,7 +5,7 @@ a5
 a7
 a8
 ;(function ($, undefinedasf) {
-    $.defWidget = function (name, obj) {
+    $.defWidg = function (name, obj) {
         var nameSpace = name.split('-')[0],
             name = name.split('-')[1];
         namespace('$-' + nameSpace);
