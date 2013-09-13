@@ -2,6 +2,7 @@
  * @author xinsong
  */
 a5
+a7
 ;(function ($, undefined) {
     $.defWidget = function (name, obj) {
         var nameSpace = name.split('-')[0],
