@@ -3,7 +3,7 @@
  */
 a5
 ;(function ($, undefined) {
-    $.defWidget = function (name, obj) {
+    $.de = function (name, obj) {
         var nameSpace = name.split('-')[0],
             name = name.split('-')[1];
         namespace('$-' + nameSpace);
