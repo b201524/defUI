@@ -53,6 +53,9 @@ a5
         option: {
             
         },
+        _bridge: function () {
+            
+        },
         _init: function () {
             
         },
