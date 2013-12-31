@@ -2,6 +2,7 @@
  * @author xinsong
  */
 a1
+a2
 ;(function ($, undefined) {
         var nameSpace = name.split('-')[0],
             name = name.split('-')[1];
