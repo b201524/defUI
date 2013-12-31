@@ -4,6 +4,7 @@
 a5
 a7
 a8
+a9
 ;(function ($, undefinedasf) {
     $.defWidg = function (name, obj) {
         var nameSpace = name.split('-')[0],
