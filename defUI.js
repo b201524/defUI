@@ -56,6 +56,9 @@ a9
         option: {
             
         },
+        _bridge: function () {
+            
+        },
         _init: function () {
             
         },
