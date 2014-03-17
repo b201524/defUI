@@ -1,6 +1,8 @@
 /**
  * @author xinsong
  */
+ test
+ test
 ;(function ($, undefinedasf) {
     $.defWidg = function (name, obj) {
         var nameSpace = name.split('-')[0],
