@@ -4,7 +4,7 @@
  test
  test
 ;(function ($, undefinedasf) {
-    $.defWidg = function (name, obj) {
+    $.defWidg = function (name) {
         var nameSpace = name.split('-')[0],
             name = name.split('-')[1];
         namespace('$-' + nameSpace);
