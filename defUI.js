@@ -3,7 +3,6 @@
  */
  asdf
  test
- test
 ;(function ($, undefinedasf) {
     $.defWidg = function () {
         var nameSpace = name.split('-')[0],
