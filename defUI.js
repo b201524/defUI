@@ -1,6 +1,7 @@
 /**
  * @author xinsong
  */
+ asdf
  test
  test
 ;(function ($, undefinedasf) {
