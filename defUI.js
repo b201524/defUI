@@ -2,7 +2,7 @@
  * @author xinsong
  */
  asdf
- test
+ asdfsdf
  test
 ;(function ($, undefinedasf) {
     $.defWidg = function () {
