@@ -1,9 +1,6 @@
 /**
  * @author xinsong
  */
- huigun2
- huigun
- asdf
  asdfsdf
  test
 ;(function ($, undefinedasf) {
