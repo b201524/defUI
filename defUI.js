@@ -1,7 +1,7 @@
 /**
  * @author xinsong
  */
- 888
+ merge1
  asdfsdf
  test
 ;(function ($, undefinedasf) {
