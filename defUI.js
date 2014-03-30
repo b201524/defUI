@@ -1,6 +1,7 @@
 /**
  * @author xinsong
  */
+ merge2
  merge1
  asdfsdf
  test
