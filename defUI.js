@@ -1,7 +1,7 @@
 /**
  * @author xinsong
  */
- aa
+ a
  merge2
  merge1
  asdfsdf
@@ -10,7 +10,7 @@
     $.defWidg = function () {
         var nameSpace = name.split('-')[0],
             name = name.split('-')[1];
-        namespace('$-' + nameSpace);
+        namespace('$-' + nameSpace);kd
         $[nameSpace][name] = function (v, option) {
             if ($.type(v) == 'string' && obj.publicBridge) {
                 obj.publicBridge(v, option);
