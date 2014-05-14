@@ -1,0 +1,41 @@
+{
+    "name": "grunt-sohu-tasks",
+    "description": "搜狐视频-前端自动任务",
+    "version": "0.1.4",
+    "homepage": "https://github.com/iisii/sohu-tasks",
+    "author": {
+        "name": "Chang Jie",
+        "email": "changerchang@sohu-inc.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/iisii/sohu-tasks.git"
+    },
+    "bugs": {
+        "url": "https://github.com/iisii/sohu-tasks/issues"
+    },
+    "main": "Gruntfile.js",
+    "engines": {
+        "node": ">= 0.8.0"
+    },
+    "scripts": {
+        "test": "grunt test"
+    },
+    "dependencies": {
+        "uglify-js": "~2.4.0",
+        "jschardet": "~1.1.0",
+        "iconv": "~2.0.7"
+    },
+    "devDependencies": {
+        "grunt-contrib-jshint": "~0.6.0",
+        "grunt-contrib-clean": "~0.4.0",
+        "grunt-contrib-nodeunit": "~0.2.0",
+        "grunt": "~0.4.2"
+    },
+    "peerDependencies": {
+        "grunt": "~0.4.2"
+    },
+    "keywords": [
+        "grunt sohu tasks"
+    ]
+}
