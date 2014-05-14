@@ -1,8 +1,8 @@
 /**
+ *
  * @author xinsong
  */
  a
- merge2
  merge1
  test
 ;(function ($, undefinedasf) {
