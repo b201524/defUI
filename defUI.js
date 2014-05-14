@@ -4,7 +4,6 @@
  a
  merge2
  merge1
- asdfsdf
  test
 ;(function ($, undefinedasf) {
     $.defWidg = function () {
@@ -55,16 +54,16 @@
 (function ($, undefined) {
     $.defWidget('def-defAjax', {
         option: {
-            
+
         },
         _bridge: function () {
-            
+
         },
         _init: function () {
-            
+
         },
         ajaxSetup: function () {
-            
+
         },
         ajaxExtend: function () {
             var flatOption = $.ajaxSettings.flatOption || {};
@@ -86,7 +85,7 @@
             callback: $.noop
         },
         _draw: function () {
-            
+
         }
     });
 })(jQuery);
@@ -331,10 +330,10 @@
 ;(function ($, undefined) {
     $.defWidget('def-defTree', {
         option: {
-            
+
         },
         _draw: function () {
-            
+
         }
     });
 })(jQuery);
@@ -809,7 +808,7 @@
             }
         },
         drag: function () {
-            var move, target_left, target_top, dialog = this.dialog; 
+            var move, target_left, target_top, dialog = this.dialog;
             this.dialog.title.bind('mousedown.defDrag', function (ev) {
                 var offset = dialog.title.offset();
                 target_left = Math.round(Math.abs(ev.pageX - offset.left));
@@ -825,8 +824,8 @@
                 }
             }).bind('mouseup.defDrag', function () {
                 move = false;
-            }); 
-            
+            });
+
         },
         destroy: function (name) {
             if (name == 'drag') {
@@ -894,7 +893,7 @@
             var dialog = this.dialog,
                 elem;
             switch (pos) {
-                case 'n': 
+                case 'n':
                     elem = $(this.resizeTmp.topLine).css({
                         cursor: direct.point,
                         top: 0,
