@@ -46,6 +46,7 @@ module.exports = function(grunt) {
         var done = this.async();
         helper.get_diff_table(function(difftable){
             diff_table = difftable;
+            console.dir(difftable);
             done(true);
         });
     });
