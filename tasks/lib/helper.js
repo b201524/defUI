@@ -1,5 +1,3 @@
-var Iconv  = require('iconv').Iconv;
-var UglifyJS = require('uglify-js');
 
 var crypto = require('crypto');
 var path = require('path');
@@ -30,7 +28,9 @@ module.exports.init = function(grunt) {
     exports.get_allinc_files = function() {
         var scope = config.incScope || [];
         var files = [];
+        console.log(scope);
         scope.forEach(function(item) {
+            // console.log(item);
             files = files.concat(grunt.file.expand(item))
         });
         return files;

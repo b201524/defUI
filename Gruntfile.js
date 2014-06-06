@@ -53,7 +53,11 @@ module.exports = function(grunt) {
         }
 
     });
-
+    grunt.config('sohu', {
+        incScope: [
+            '*/inc.js'
+        ]
+    });
     // Actually load this plugin's task(s).
     grunt.loadTasks('tasks');
 

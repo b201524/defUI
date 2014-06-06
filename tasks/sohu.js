@@ -52,7 +52,9 @@ module.exports = function(grunt) {
 
     grunt.task.registerTask('sohu-incs','显示当前项目所有inc文件。', function() {
         var files = helper.get_allinc_files();
+        console.log(files)
         files.forEach(function(item){
+            // grunt.log.ok(123)
             grunt.log.ok(item);
         });
     });
